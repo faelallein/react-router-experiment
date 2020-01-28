@@ -9,7 +9,8 @@ export default function TopNavbar(){
             <Nav className="mr-auto">
                 <Nav.Link ><Link to='/' >Home</Link></Nav.Link>
                 <Nav.Link ><Link to='/subrotas' >SubRotas</Link></Nav.Link>
-                <Nav.Link ><Link to='/view3' >View 3</Link></Nav.Link>
+                <Nav.Link ><Link to='/parameters'>Parametros</Link></Nav.Link>
+                <Nav.Link ><Link to='/recursive'>Recursive</Link></Nav.Link>
             </Nav>
         </Navbar>        
     )

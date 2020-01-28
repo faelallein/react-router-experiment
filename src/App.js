@@ -1,7 +1,9 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom'
 import './App.css';
-import { View, View2, View3 } from './components/Views'
+import Home from './components/Home'
+import SubRoute from './components/SubRoute'
+import Parameters from './components/Parameters'
 
 import TopNavbar from './components/TopNavbar'
 
@@ -13,13 +15,13 @@ function App() {
             <main>
                 <Switch>
                     <Route exact path="/">
-                        <View />
+                        <Home />
                     </Route>
                     <Route path="/subrotas">
-                        <View2 />
+                        <SubRoute />
                     </Route>
-                    <Route path="/view3">
-                        <View3 />
+                    <Route path="/parameters">
+                        <Parameters />
                     </Route>
                 </Switch>
             </main>
